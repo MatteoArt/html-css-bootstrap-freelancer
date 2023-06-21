@@ -10,9 +10,13 @@
 .ms-nav-height, .small-height {
     min-height: 60px;
 }
-.ms-section {
+.ms_section {
     padding: 80px 0;
+    background-color: #1ABC9C;
 }
 .ms_title-color {
     color: #2C2C2C;
+}
+.ms_padding-bottom {
+    padding-bottom: 9px;
 }

@@ -1,0 +1,18 @@
+/* stili personalizzati per la pagina */
+
+.ms-container {
+    border: 1px dashed black;
+    min-height: 300px;
+}
+.ms-height {
+    min-height: 200px;
+}
+.ms-nav-height, .small-height {
+    min-height: 60px;
+}
+.ms-section {
+    padding: 80px 0;
+}
+.ms_title-color {
+    color: #2C2C2C;
+}

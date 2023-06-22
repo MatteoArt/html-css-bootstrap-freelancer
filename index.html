@@ -18,18 +18,27 @@
         <div class="container-fluid p-0 ms_bg-nav">
             <nav class="container d-flex flex-row justify-content-between align-items-center ms_nav-height">
                 <div class="text-uppercase text-light fw-bold ms_click">start bootstrap</div>
-                <ul class="">
-                    <li>portfolio</li>
-                    <li>about</li>
-                    <li>contact</li>
-                </ul>
+                <div>
+                    <div id="button" class="d-md-none border border-secondary rounded-1 p-2"><i id="burger-icon"
+                            class="fa-solid fa-bars fa-2xl"></i></div>
+                    <ul class="ms_nav-link d-md-flex flex-row align-items-center">
+                        <li class="text-uppercase text-light fw-semibold">portfolio</li>
+                        <li class="text-uppercase text-light fw-semibold">about</li>
+                        <li class="text-uppercase text-light fw-semibold">contact</li>
+                    </ul>
+                </div>
             </nav>
         </div>
         <section class="ms_section">
             <div class="container text-center">
                 <img src="images/avatar.svg" class="ms_myimg" alt="avatar">
-                <h1 class="text-uppercase text-light fw-semibold mt-2">start bootstrap</h1>
-                <div class="text-uppercase text-light fw-semibold">graphic artist - web designer - illustrator</div>
+                <h1 class="text-uppercase text-light fw-semibold mt-3">start bootstrap</h1>
+                <div class="star-container">
+                    <hr>
+                    <div class="star"><i class="fa-solid fa-star fa-2xl"></i></div>
+                    <hr>
+                </div>
+                <div class="text-uppercase text-light fw-semibold ms_mgtop">graphic artist - web designer - illustrator</div>
             </div>
         </section>
     </header>
@@ -37,7 +46,11 @@
         <section class="ms_padding-section">
             <div class="container">
                 <h2 class="text-uppercase text-center fw-semibold mt-0 mb-3 ms_title-color">portfolio</h2>
-                <div class="star-container"></div>
+                <div class="star-container mb-3">
+                    <hr class="ms_dark-line">
+                    <div class="star ms_dark-color"><i class="fa-solid fa-star fa-2xl"></i></div>
+                    <hr class="ms_dark-line">
+                </div>
                 <div class="row gy-4">
                     <div class="col-12 col-md-6 col-lg-4 rounded-2">
                         <img src="images/cabin.png" class="img-fluid rounded-2" alt="cabin">
@@ -62,9 +75,14 @@
         </section>
         <section class="ms_section">
             <div class="container">
-                <h2 class="text-uppercase text-light text-center fw-semibold mb-4">about</h2>
+                <h2 class="text-uppercase text-light text-center fw-semibold mb-3">about</h2>
+                <div class="star-container ms_small-star">
+                    <hr>
+                    <div class="star ms_small-padding"><i class="fa-solid fa-star fa-2xl"></i></div>
+                    <hr>
+                </div>
                 <!-- centra il contenuto della row-->
-                <div class="row justify-content-center mb-4">
+                <div class="row justify-content-center mb-4 mt-2">
                     <div class="col-10">
                         <div class="row gy-2">
                             <div class="col-12 col-md-6">
@@ -90,6 +108,11 @@
         <section class="ms_padding-section">
             <div class="container">
                 <h2 class="text-uppercase text-center fw-semibold ms_title-color">contact me</h2>
+                <div class="star-container ms_small-star">
+                    <hr class="ms_dark-line">
+                    <div class="star ms_small-padding ms_dark-color"><i class="fa-solid fa-star fa-2xl"></i></div>
+                    <hr class="ms_dark-line">
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-10">
                         <form class="mt-4" action="">
@@ -133,7 +156,7 @@
                             <div class="text-uppercase fw-semibold mb-1">location</div>
                             <p class="lh-sm">2215 John Daniel Drive Clark,<br>MO 54243</p>
                         </div>
-                        <div class="col-12 col-md-4 text-center text-light mb-sm-4 mb-md-1">
+                        <div class="col-12 col-md-4 text-center text-light mb-4 mb-md-1">
                             <div class="text-uppercase fw-semibold mb-2">around the web</div>
                             <div class="d-flex flex-row justify-content-center">
                                 <span class="ms_my-icon ms_padding-icon"><i class="fa-brands fa-facebook-f"></i></span>

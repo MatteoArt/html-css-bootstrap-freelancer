@@ -62,11 +62,80 @@ button.ms_mybutton:hover {
 }
 .ms_bg-nav {
     background-color: #2C3E50;
-}
+} 
 .ms_click {
     cursor: pointer;
 }
 .ms_nav-link {
     list-style-type: none;
     display: none;
+    margin: 0;
+    padding: 0;
+}
+ul.ms_nav-link li {
+    font-size: 14px;
+    padding: 10px;
+}
+ul.ms_nav-link li:hover {
+    cursor: pointer;
+}
+.ms_mgtop {
+    margin-top: 10px;
+}
+#burger-icon {
+    color: rgb(128, 128, 128);
+}
+#button:hover {
+    cursor: pointer;
+}
+.star {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 3px;
+}
+.star-container {
+    width: 220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.star-container hr {
+    flex-grow: 1;
+    color: white;
+    border: 1px solid white;
+    opacity: 1;
+}
+.star-container i {
+    font-size: 1.1rem;
+}
+.ms_dark-color {
+    color: #2C3E50;
+}
+div.star-container hr.ms_dark-line {
+    color: #2C3E50;
+    border: 1px solid #2C3E50;
+}
+.ms_small-star {
+    width: 120px;
+}
+.ms_small-padding {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+@media screen and (min-width: 992px) {
+    .star-container {
+        width: 300px;
+    }
+    .star-container i {
+        font-size: 1.5em;
+    }
+    .ms_small-star {
+        width: 170px;
+    }
+    .ms_small-padding {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }

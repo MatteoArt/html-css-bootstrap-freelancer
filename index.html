@@ -21,17 +21,17 @@
             </nav>
         </div>
         <section class="ms_section">
-            <div class="container ms-container">
+            <div class="container text-center">
                 <img src="images/avatar.svg" class="ms_myimg" alt="avatar">
-                <h1 class="text-uppercase text-light fw-semibold">start bootstrap</h1>
-                <div class="text-uppercase text-light fw-semibold fs-5">graphic artist - web designer - illustrator</div>
+                <h1 class="text-uppercase text-light fw-semibold mt-2">start bootstrap</h1>
+                <div class="text-uppercase text-light fw-semibold">graphic artist - web designer - illustrator</div>
             </div>
         </section>
     </header>
     <main>
-        <section>
+        <section class="ms_padding-section">
             <div class="container">
-                <h2 class="text-uppercase text-center fw-semibold mt-4 mb-3 ms_title-color">portfolio</h2>
+                <h2 class="text-uppercase text-center fw-semibold mt-0 mb-3 ms_title-color">portfolio</h2>
                 <div class="star-container"></div>
                 <div class="row gy-4">
                     <div class="col-12 col-md-6 col-lg-4 rounded-2">
@@ -56,11 +56,12 @@
             </div>
         </section>
         <section class="ms_section">
-            <div class="container ms-container">
-                <!-- centra il contenuto --> 
-                <div class="row justify-content-center">
+            <div class="container">
+                <h2 class="text-uppercase text-light text-center fw-semibold mb-4">about</h2>
+                <!-- centra il contenuto della row--> 
+                <div class="row justify-content-center mb-4">
                     <div class="col-10">
-                        <div class="row">
+                        <div class="row gy-2">
                             <div class="col-12 col-md-6">
                                 <p class="fw-semibold text-light">Freelancer is a free bootstrap theme created by Start
                                     Bootstrap.
@@ -80,14 +81,31 @@
                 <button type="button" class="btn btn-outline-light d-block m-auto ms_padding-bottom"><i id="download" class="fa-solid fa-download"></i>Download</button>
             </div>
         </section>
-        <section class="ms-section">
-            <div class="container w-75 ms-container">
-                <div class="row">
-                    <div class="col-12 border small-height">Name</div>
-                    <div class="col-12 border small-height">Email Address</div>
-                    <div class="col-12 border small-height">Phone Number</div>
-                    <div class="col-12 border small-height">Message</div>
-                    <div class="col-12 border small-height">Button</div>
+        <section class="ms_padding-section">
+            <div class="container">
+                <h2 class="text-uppercase text-center fw-semibold ms_title-color">contact me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <form class="mt-4" action="">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="floatingName" placeholder="name">
+                                <label for="floatingName">Name</label>
+                              </div>
+                              <div class="form-floating mb-3">
+                                <input type="email" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="floatingMail" placeholder="name@example.com">
+                                <label for="floatingMail">Email Address</label>
+                              </div>
+                              <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="floatingPhone" placeholder="+39">
+                                <label for="floatingPhone">Phone Number</label>
+                              </div>
+                              <div class="form-floating">
+                                <textarea class="form-control border-top-0 border-end-0 border-start-0 rounded-0" placeholder="Leave a message here" id="floatingTextarea" style="height: 200px;"></textarea>
+                                <label for="floatingTextarea">Message</label>
+                              </div>
+                              <button class="btn btn-success ms_mybutton mt-3" type="submit">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>

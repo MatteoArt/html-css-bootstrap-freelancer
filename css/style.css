@@ -26,3 +26,15 @@
 .ms_myimg {
     width: 200px;
 }
+.ms_padding-section {
+    padding: 45px 0 80px;
+}
+.ms_mybutton {
+    background-color: #1ABC9C;
+    padding-bottom: 9px;
+    border-color: #1ABC9C;
+}
+button.ms_mybutton:hover {
+    background-color: #12977d;
+    border-color: transparent;
+}
